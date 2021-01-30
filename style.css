@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    background-color: lightseagreen;
+    color: blue;
+    font-family: cursive;
+}
+
+#one {
+    background: linear-gradient(palegreen, lightblue);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Music {
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue;
+}
+
+#two {
+    background: linear-gradient(lightblue, palegreen);
+}
+
+p {
+    max-width: 600px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.T {
+    float: left;
+    font-size: 23px;
+    color: blue;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.T:hover {
+    background-color: black;
+    color: White;
+    text-decoration: underline;
+    transform: scale(1.1)
+}
+
+#PR,
+#R,
+#MFMV,
+#B {
+    background: linear-gradient(lightblue, palegreen);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 25px;
+}
+
+a {
+    color: darkblue;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue;
+}
+
+.K {
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue;
+}
